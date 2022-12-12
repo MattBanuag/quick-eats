@@ -12,7 +12,7 @@
 /* HEADER                              */
 /* = = = = = = = = = = = = = = = = = = */
 header, footer {
-    padding: 0 70px;
+    padding: 0 100px;
     background-color: #810CA8;
 }
 
@@ -37,7 +37,7 @@ footer nav ul {
 /* CONTENT                             */
 /* = = = = = = = = = = = = = = = = = = */
 .content {
-    padding: 40px 70px;
+    padding: 40px 100px;
 }
 
 .content div+div {
@@ -84,6 +84,23 @@ footer nav ul {
 }
 
 /* Map */
-.map article, .map p {
+.map-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-section article, .map-section p {
     text-align: center;
+}
+
+#map {
+    margin: -60px 0;
+    width: 75%;
+    height: 500px;
+}
+
+#map a, button {
+    display: none;
 }
