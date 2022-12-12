@@ -31,7 +31,7 @@ html {
 
 body {
   height: 100vh;
-  background-color: #06283D;
+  background-color: #F2F4F9;
 }
 
 ul, ol {
@@ -91,7 +91,36 @@ a {
     font-size: 1.1rem;
 }
 
+h1 {
+  font-size: 3rem;
+  color: #000;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #000;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #000;
+}
+
+button {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  background-color: #6D67E4;
+}
+
 .logo {
-    width: 130px;
-    height: 130px;
+    width: 90px;
+    height: 90px;
+}
+
+.intro-img {
+  width: 400px;
+  height: 400px;
 }
