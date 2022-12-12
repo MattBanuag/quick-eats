@@ -13,7 +13,7 @@
 /* = = = = = = = = = = = = = = = = = = */
 header, footer {
     padding: 0 100px;
-    background-color: #810CA8;
+    background-color: #FED049;
 }
 
 header nav ul {
@@ -83,6 +83,12 @@ footer nav ul {
     color: #D1D1D1;
 }
 
+.business-count {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #D1D1D1;
+}
+
 /* Map */
 .map-section {
     display: flex;
@@ -99,8 +105,11 @@ footer nav ul {
     margin: -60px 0;
     width: 75%;
     height: 500px;
+    overflow: hidden;
 }
 
-#map a, button {
+#map a, #map button {
     display: none;
 }
+
+  
