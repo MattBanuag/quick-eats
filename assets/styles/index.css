@@ -14,12 +14,26 @@ header, footer {
     background-color: #FED049;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header nav ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
 }
+
+.search-bar {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
 
 /* = = = = = = = = = = = = = = = = = = */
 /* FOOTER                              */
