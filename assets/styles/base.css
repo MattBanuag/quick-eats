@@ -89,30 +89,29 @@ input[type=button], input[type=submit], input[type=clear], input[type=radio], bu
 a {
     text-decoration: none;
     font-size: 1.1rem;
+    font-weight: 700;
 }
 
 h1 {
   font-size: 3rem;
-  color: #000;
 }
 
 h3 {
   font-size: 2rem;
-  color: #000;
 }
 
 p {
   margin: 15px 0;
   font-size: 1.2rem;
   text-align: justify;
-  color: #000;
 }
 
 button {
   padding: 8px;
   border-radius: 5px;
   font-size: 1.1rem;
-  background-color: #6D67E4;
+  background-color: #379237;
+  color: #FFF;
 }
 
 .logo {
