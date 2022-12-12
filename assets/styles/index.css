@@ -2,3 +2,28 @@
 /* = = = = = = = = = = = = = = = = = = */
 /* WRAPPER                             */
 /* = = = = = = = = = = = = = = = = = = */
+.wrapper {
+    height: 100vh;
+}
+
+/* = = = = = = = = = = = = = = = = = = */
+/* HEADER                              */
+/* = = = = = = = = = = = = = = = = = = */
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding: 5px 70px;
+}
+
+/* = = = = = = = = = = = = = = = = = = */
+/* FOOTER                              */
+/* = = = = = = = = = = = = = = = = = = */
+footer nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding: 5px 70px;
+}

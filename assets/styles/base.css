@@ -86,3 +86,12 @@ input[type=button], input[type=submit], input[type=clear], input[type=radio], bu
 /*-------------------------------------------*/
 /* BASIC ELEMENT STYLES                      */
 /*-------------------------------------------*/
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+}
