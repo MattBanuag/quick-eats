@@ -6,8 +6,6 @@
     height: 100vh;
 }
 
-
-
 /* = = = = = = = = = = = = = = = = = = */
 /* HEADER                              */
 /* = = = = = = = = = = = = = = = = = = */
@@ -26,11 +24,25 @@ header nav ul {
 /* = = = = = = = = = = = = = = = = = = */
 /* FOOTER                              */
 /* = = = = = = = = = = = = = = = = = = */
+footer {
+    padding: 10px 100px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer nav ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
+}
+
+footer p {
+    font-weight: 700;
 }
 
 /* = = = = = = = = = = = = = = = = = = */
@@ -41,7 +53,7 @@ footer nav ul {
 }
 
 .content div+div {
-    margin: 80px 0;
+    margin: 50px 0;
 }
 
 /* Introduction */
@@ -102,10 +114,8 @@ footer nav ul {
 }
 
 #map {
-    margin: -60px 0;
     width: 75%;
     height: 500px;
-    overflow: hidden;
 }
 
 #map a, #map button {
